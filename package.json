@@ -1,0 +1,27 @@
+{
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "npm run" :"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahwaZeslusHaile/Express-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahwaZeslusHaile/Express-tutorial/issues"
+  },
+  "homepage": "https://github.com/RahwaZeslusHaile/Express-tutorial#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+ 
+    "type":"module"
+
+
+}
