@@ -8,11 +8,12 @@ app.get('/Home',(req,res)=>{
 app.get('/Home/data',(req,res)=>{
     fetch("https://zenquotes.io/api/random")
     .then((response)=>{
-        const Response = response.json()
-        return Response
+        const Response = response.json();
+        return Response;
     }).then((data)=>{
          const Data = data[0]
-           res.send(Data)
+         const value = Data.q
+           res.send(value)
     }).catch((err)=>{
         console.log("the Error is",err)
     })
